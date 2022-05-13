@@ -1,6 +1,6 @@
 <h3> js_quiz_game </h3>
 <h4>By Eliud Wanja</h4>
-<img src="assets/images/page.png" width="500px">
+
 <h3>Table of Content</h3>
 
  - [Description](#description)
@@ -17,9 +17,8 @@
 
  <p> 
 
-[Go back to the top](#Moringa school landing page)
 
-### Features
+### [Features](#features)
 
 As a user of the web page, you will be able to:
 
@@ -28,9 +27,8 @@ As a user of the web page, you will be able to:
 * 3.Navigate to other pages that have more information
 
 
-[Go back to the top](#Moringa school landing page)
+#### [Behaviour Driven Development](#Behaviour-Driven-Development)
 
-#### Behaviour Driven Development|
 | Behaviour      | Input        | Output       |
 ||:-------------:| :----------:| -----------:|
 |Enter your name| Eliud Wanja|                   |
@@ -40,35 +38,32 @@ As a user of the web page, you will be able to:
 [Press Submit] |Pop up "Eliud Wanja, we have received your message. Thank you for reaching out to us.|
 
 
-[Go back to the top](#Moringa school landing page)
 
-### Requirements
+### [Requirements](#requirements)
 * Access to  a computer or an electronic device
 * Access to stable internet
-### Installation Process
+
+
+### [Installation Process](#installation-Process)
  ****
 * Clone to this repo : 
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
 
-
-[Go Back to the top](#Moringa school landing page)
-
-### Live Link
+### [Live Link](#Live-Link)
 - Click the live link at the about section in the main branch or direct link below <br>
 
 
 
 
-### Technology Used
+### [Technology  Used](#technology-Used)
 * HTML - to develop the structure of the pages.
 * CSS - to style the User Interface.
 * JavaScript - for interactivity.
 
-[Go Back to the top](#Moringa school landing page)
 
-#### Known Bugs
+#### Known Bugs(#known-bugs)
 * Unwanted space in the page
 
 #### Licence
@@ -91,11 +86,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE WEBPAGE OR THE USE OR OTHER DEALINGS IN THE
 WEBPAGE
 
-[Go Back to the top](#Moringa school landing page)
 
-## Authors Info
+### [Authors Info](#Authors-Info)
 
 Linked - [Eliud Wanja](https://www.linkedin.com/in/eliud-wanja)
-
-[Go Back to the top](#Moringa school landing page)
+)
 
