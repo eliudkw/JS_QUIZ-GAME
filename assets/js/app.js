@@ -50,3 +50,12 @@ function incorrectAnswer() {
         <p>${answeredCorrect} of ${questions.length} correct</p>`;
 };
 
+// checks if the question is answered
+function unselectedQuestion() {
+    return `<p>You must answer this question to move to the next question! </p>
+   <button class = "submitNext" type="submit"> Next </button>
+   
+   <p>Question ${currentQuestion + 1} of ${questions.length}</p>
+        <p>${answeredCorrect} of ${questions.length} correct</p>`;
+};
+
