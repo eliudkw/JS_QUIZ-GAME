@@ -100,3 +100,16 @@ function restartQuiz() {
     });
 }
 
+// checks question number and loads next question if it's not the last question
+function submitNext() {
+    $(".signup-form").on('click', '.submitNext', function (event) {
+        event.preventDefault();
+
+        if (currentQuestion === 8) {
+            return $(".signup-form").html(showResults);
+        } else {
+            $(".signup-form").html(loadQuestion);
+        }
+    });
+
+}
