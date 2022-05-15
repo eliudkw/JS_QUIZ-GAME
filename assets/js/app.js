@@ -59,3 +59,27 @@ function unselectedQuestion() {
         <p>${answeredCorrect} of ${questions.length} correct</p>`;
 };
 
+// tallies the total of correctly answered questions
+function submitAnswer() {
+    $('.signup-form').on('click', '.submitAnswer', function (event) {
+        event.preventDefault();
+        let selectedAnswer = $(".exercise-question:checked").val();
+
+        $("#error").html("");
+
+        if (selectedAnswer === undefined) {
+            $(".signup-form").html(unselectedQuestion);
+        } else {
+            if (selectedAnswer === questions[currentQuestion].correctAnswer) {
+                answeredCorrect++;
+                $(".signup-form").html(correctAnswer);
+
+            } else {
+                $(".signup-form").html(incorrectAnswer);
+            }
+
+            currentQuestion++;
+        }
+    })
+};
+
