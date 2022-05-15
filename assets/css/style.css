@@ -1,7 +1,6 @@
 body {
-    background-color: snow;
+    background-color: white;
     font-family: "Roboto", helvetica, sans-serif;
-    /*padding: 60px 0 0;*/
     margin: 0;
     font-size: 18px;
 }
@@ -11,12 +10,10 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #218380;
+    background-color: #218383;
     color: #ffffff;
     padding: 3vh;
 }
-
-/* specify min-width for time element to give enough space for the span inside it to contain 3 digits without visibly moving the "time" text */
 
 header a {
     text-decoration: none;
@@ -45,7 +42,7 @@ fieldset {
     max-width: 100%;
     height: auto;
     border-color: lightgray;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 10px 10px 10px 10px lightgray;
 }
 
 .signup-form legend {
@@ -67,7 +64,6 @@ button[type="submit"] {
     font-size: 18px;
     text-align: left;
     padding: 15px;
-    /*border-radius: 2px;*/
     background: white;
     margin: 10px auto 20px;
     transition: opacity 0.4s;
@@ -81,7 +77,7 @@ button[type="submit"] {
     font-weight: 250;
     text-align: center;
     color: white;
-    background-color: #218380;
+    background-color: #218383;
     border: 0;
     cursor: pointer;
     margin-bottom: 0;
@@ -127,7 +123,7 @@ button[type="submit"]:focus {
 
 /*footer section*/
 .footer {
-    background-color: #218380;
+    background-color: #218383;
     position: absolute;
     bottom: -20px;
     width: 100%;

@@ -42,7 +42,7 @@ function correctAnswer() {
 
 // function to give feedback if answer is incorrect
 function incorrectAnswer() {
-    return `<p>Incorrect answer keep trying!</p>
+    return `<p>Incorrect answer! keep trying!</p>
     <p> Correct answer is,  ${ questions[currentQuestion].correctAnswerResult} </p>
    <button class = "submitNext" type="submit"> Next </button>
    
