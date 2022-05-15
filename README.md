@@ -1,5 +1,6 @@
 <h3> js_quiz_game </h3>
 <h4>By Eliud Wanja</h4>
+<img src="./assets/images/start.png" sizes="250 * 250">
 
 <h3>Table of Content</h3>
 
@@ -32,7 +33,6 @@ As a user of the web page, you will be able to:
 * Access to stable internet
 
 ### [Installation Process](#installation-Process)
-<img src="./assets/images/start.png" sizes="250 * 250">
 
 
 * Clone to this repo : git@github.com:eliudkw/js_quiz_game.git
