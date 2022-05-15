@@ -89,3 +89,14 @@ function showResults() {
   <button class = "restartQuiz" type="submit">Restart</button>`;
 };
 
+// function to restart quiz after completion
+function restartQuiz() {
+    $('.signup-form').on('click', '.restartQuiz', function (event) {
+        event.preventDefault();
+        currentQuestion = 0;
+        answeredCorrect = 0;
+
+        $(".signup-form").html(loadQuestion);
+    });
+}
+
