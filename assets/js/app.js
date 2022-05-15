@@ -83,3 +83,9 @@ function submitAnswer() {
     })
 };
 
+// show the results of your progress
+function showResults() {
+    return `<p>You scored ${(answeredCorrect / 8) * 100} out of ${(questions.length / 8) * 100}.</p> <br>
+  <button class = "restartQuiz" type="submit">Restart</button>`;
+};
+
