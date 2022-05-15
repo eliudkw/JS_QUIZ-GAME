@@ -1,5 +1,6 @@
 let currentQuestion = 0;
 let answeredCorrect = 0;
+let percentage;
 
 // this functions loads the questions from questions file and creates a form for them in the index file
 function loadQuestion() {
@@ -22,3 +23,10 @@ function loadQuestion() {
       </div>` ;
 }
 
+function startQuiz() {
+    $('.signup-form').on('click', '.submitStart', function (event) {
+        event.preventDefault();
+
+        $(".signup-form").html(loadQuestion);
+    });
+}
