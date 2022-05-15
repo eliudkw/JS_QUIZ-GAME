@@ -45,6 +45,7 @@ As a user of the web page, you will be able to:
 ### [Live Link](#Live-Link)
 
 - Click the live link at the about section in the main branch or direct link below <br>
+- https://eliudkw.github.io/js_quiz_game/
 
 ### [Technology  Used](#technology-Used)
 
