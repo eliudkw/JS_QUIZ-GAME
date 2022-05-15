@@ -1,7 +1,7 @@
 <h3> js_quiz_game </h3>
 <h4>By Eliud Wanja</h4>
-<img src="./assets/images/start.png" style="width: 300px ">
-<img src="./assets/images/question.png" style="width: 300px">
+<img src="./assets/images/start.png" >
+<img src="./assets/images/question.png">
 
 <h3>Table of Content</h3>
 
