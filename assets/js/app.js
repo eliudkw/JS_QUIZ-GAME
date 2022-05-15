@@ -40,3 +40,13 @@ function correctAnswer() {
         <p>${answeredCorrect} of ${questions.length} correct</p>`;
 };
 
+// function to give feedback if answer is incorrect
+function incorrectAnswer() {
+    return `<p>Incorrect answer keep trying!</p>
+    <p> Correct answer is,  ${ questions[currentQuestion].correctAnswerResult} </p>
+   <button class = "submitNext" type="submit"> Next </button>
+   
+   <p>Question ${currentQuestion + 1} of ${questions.length}</p>
+        <p>${answeredCorrect} of ${questions.length} correct</p>`;
+};
+
