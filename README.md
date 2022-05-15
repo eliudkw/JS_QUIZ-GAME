@@ -32,8 +32,8 @@ As a user of the web page, you will be able to:
 * Access to stable internet
 
 ### [Installation Process](#installation-Process)
+<img src="./assets/images/start.png" sizes="250 * 250">
 
- ****
 
 * Clone to this repo : git@github.com:eliudkw/js_quiz_game.git
 * Unzip the downloaded files in a folder of choice.
