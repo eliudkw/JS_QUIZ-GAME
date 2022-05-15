@@ -31,3 +31,12 @@ function startQuiz() {
     });
 }
 
+// function to give feedback on the correct answer
+function correctAnswer() {
+    return `<p>Correct answer!</p>
+  <button class = "submitNext" type="submit"> Next </button>
+    
+  <p>Question ${currentQuestion + 1} of ${questions.length}</p>
+        <p>${answeredCorrect} of ${questions.length} correct</p>`;
+};
+
