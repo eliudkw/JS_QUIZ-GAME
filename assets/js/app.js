@@ -113,3 +113,13 @@ function submitNext() {
     });
 
 }
+
+// game initializers
+function init() {
+    startQuiz();
+    submitAnswer();
+    submitNext();
+    restartQuiz();
+}
+
+$(init)
