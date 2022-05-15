@@ -22,3 +22,12 @@ function loadQuestion() {
       </fieldset>
       </div>` ;
 }
+// function for start button and load questions
+function startQuiz() {
+    $('.signup-form').on('click', '.submitStart', function (event) {
+        event.preventDefault();
+
+        $(".signup-form").html(loadQuestion);
+    });
+}
+
